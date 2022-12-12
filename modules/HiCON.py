@@ -9,7 +9,7 @@ import torch
 from torch_geometric.nn import GCNConv
 # from torch_geometric.nn import LGConv
 import pdb
-from .MetaUnit_v1 import MetaWeightNet
+# from .MetaUnit_v1 import MetaWeightNet
 import os
 
 """
@@ -419,7 +419,7 @@ class Recommender(nn.Module):
         self.metapath_steps = metapath_steps
 
         # meta unit
-        self.meta_unit = MetaWeightNet(self.emb_size)
+        # self.meta_unit = MetaWeightNet(self.emb_size)
 
     def initDevice(self):
         # Create channels
