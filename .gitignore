@@ -1,0 +1,5 @@
+data/**
+.idea/
+main_bak/**
+modules_bak/**
+utils_bak/**
